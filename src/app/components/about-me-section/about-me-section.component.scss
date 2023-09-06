@@ -1,0 +1,19 @@
+.about-me-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-me-img img{
+    width: 400px;
+    height: 400px;
+    display: none;
+}
+
+.about-me-paragrph{
+    margin: 30px 0;
+
+    & p{
+        text-align: justify;
+        line-height: 25px;
+    }
+}
