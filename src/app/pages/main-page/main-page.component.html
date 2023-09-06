@@ -1,0 +1,24 @@
+<header class="header-section">
+    <div class="header-content">
+
+        <div class="header-content-images">
+            <div class="header-content-logo-main">
+                <img src="../../../assets/img/img-main.png" alt="" class="header-logo">
+            </div>
+    
+            <div class="header-content-icon-menu">
+                <img src="../../../assets/icons/menu.svg" alt="" class="menu-icon" (click)="showOpt()">
+            </div>
+        </div>
+
+        <div class="header-content-options" *ngIf="showOptions">
+            <ul class="content-options">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
