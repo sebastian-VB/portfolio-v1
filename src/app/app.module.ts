@@ -7,6 +7,7 @@ import { HomeSectionComponent } from './components/home-section/home-section.com
 import { AboutMeSectionComponent } from './components/about-me-section/about-me-section.component';
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
 import { SkillsSectionComponent } from './components/skills-section/skills-section.component';
+import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SkillsSectionComponent } from './components/skills-section/skills-secti
     HomeSectionComponent,
     AboutMeSectionComponent,
     ProjectsSectionComponent,
-    SkillsSectionComponent
+    SkillsSectionComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule

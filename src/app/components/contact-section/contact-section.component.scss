@@ -1,0 +1,35 @@
+.contact-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-content{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+
+    & a{
+        background-color: rgb(230, 230, 230);
+        padding: 10px;
+        border-radius: 50%;
+        transition: background-color .2s;
+
+        &:hover{
+            background-color: rgb(207, 207, 207);
+        }
+    }
+}
+
+.contact-img{
+    width: 50px;
+    transform: scale(0.9);
+    transition: transform .2s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
