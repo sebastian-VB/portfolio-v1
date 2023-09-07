@@ -1,0 +1,28 @@
+<div class="skills-section">
+
+    <h2>Habilidades</h2>
+
+    <div class="skills-section-leng-fram skill">
+        <h3>Lenguajes y frameworks</h3>
+        <div class="img-sk-content">
+            <img [src]="item.lenFram" alt="" *ngFor="let item of listLangFram" class="img-skills">
+        </div>
+    </div>
+
+    <div class="skills-section-tec-tools skill">
+        <h3>Tecnologías y herramientas</h3>
+        <div class="img-sk-content">
+            <img [src]="item.tecTools" alt="" *ngFor="let item of listTecTools" class="img-skills">
+        </div>
+    </div> 
+
+    <div class="skills-section-skill-soft skill">
+        <h3>Habilidades blandas</h3>
+        <div class="img-sk-content">
+            <p *ngFor="let item of listSkillsSoft" class="soft">
+                {{item.content}}
+            </p>
+        </div>
+    </div>
+
+</div>
