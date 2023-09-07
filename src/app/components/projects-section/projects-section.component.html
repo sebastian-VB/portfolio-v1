@@ -1,0 +1,22 @@
+<div class="projects-content">
+
+    <h2>Proyectos</h2>
+
+    <div class="projects-content-cards">
+        <div class="project-card" *ngFor="let proj of projects">
+            <img [src]="proj.image" alt="" class="project-header-img">
+            <div class="project-text">
+                <p class="project-name">{{proj.name_project}}</p>
+                <div class="project-tec">
+                    <p *ngFor="let tec of proj.technologies">{{tec.name}}</p>
+                </div>
+            </div>
+            <div class="project-content-url">
+                <a [href]="proj.urlRepository" class="project-url" target="_blank">
+                    <img src="../../../assets/icons/logo-github.svg" alt="" class="project-repo">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
