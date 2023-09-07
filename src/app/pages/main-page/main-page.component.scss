@@ -2,6 +2,9 @@
     background-color: #00396F;
     color: #fff;
     padding: 8px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .header-content{
@@ -14,6 +17,7 @@
 .header-content-images{
     display: flex;
     justify-content: space-between;
+    padding-right: 50px;
 }
 
 .header-logo, .menu-icon{
@@ -43,18 +47,48 @@
     cursor: pointer;
     width: 100%;
     text-align: center;
-    padding: 5px 0;
+    padding: 5px 10px;
     transition: background-color .2s;
     font-weight: bold;
     font-size: 18px;
 
     &:hover{
-        background-color: #004b91;
+        background-color: #015db4;
     }
 }
 
 .page-content{
     padding: 20px;
+    padding-top: 80px;
+}
+
+// media queries
+
+@media(min-width: 750px){
+    
+    .header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-content-icon-menu{
+        display: none;
+    }
+
+    .content-options{
+        flex-direction: row;
+        gap: 20px;
+
+        & li{
+            width: auto;
+        }
+    }
+
+    .header-content-options{
+        margin-right: 20px;
+        padding-right: 20px;
+    }
 }
 
 
