@@ -14,11 +14,11 @@ export class ContactSectionComponent {
     },
     {
       urlImg : '../../../assets/icons/logo-whatsapp.svg',
-      urlContact: ''
+      urlContact: 'https://goo.su/kSGE0z' //https://wa.me/51920780679
     },
     {
       urlImg : '../../../assets/icons/logo-linkedin.svg',
-      urlContact: ''
+      urlContact: 'https://www.linkedin.com/in/sebastián-velásquez-briceño'
     },
   ]
 

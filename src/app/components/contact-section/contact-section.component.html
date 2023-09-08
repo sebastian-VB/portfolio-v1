@@ -3,7 +3,7 @@
     <h2>Contacto</h2>
 
     <div class="contact-content">
-        <a href="" *ngFor="let item of infoContact">
+        <a [href]="item.urlContact" *ngFor="let item of infoContact" target="_blank">
             <img [src]="item.urlImg" alt="" class="contact-img">
         </a>
     </div>
